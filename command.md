@@ -33,8 +33,8 @@
 ###### install chart
     helm install prometheus prometheus-community/kube-prometheus-stack
 
-    ###### Note
-
+   
+###### Note
    By default this chart installs additional, dependent charts:
 
     kubernetes/kube-state-metrics
