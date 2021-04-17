@@ -3,20 +3,20 @@
 
 #### List Pods in the default Namespace for the current context:
 
-$ kubectl get pods
-$ kubectl get pods -o wide
+    kubectl get pods
+    kubectl get pods -o wide
 
 #### List all Pods from the all Namespaces:
 
-$ kubectl get pods --all-namespaces 
-$ kubectl get pods --all-namespaces -o wide
+    kubectl get pods --all-namespaces 
+    kubectl get pods --all-namespaces -o wide
 #### Get Pods from the particular Namespace:
 
-$ kubectl get pods --namespace <namespace_name>
-$ kubectl get pods --namespace <namespace_name> -o wide
+    kubectl get pods --namespace <namespace_name>
+    kubectl get pods --namespace <namespace_name> -o wide
 #### Get detailed information about a Pod:
 
-$ kubectl describe pode <pode_name>
+    kubectl describe pode <pode_name>
 
 
 #### create Minikube cluster
