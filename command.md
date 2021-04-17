@@ -23,7 +23,7 @@
     minikube start --cpus 4 --memory 8192 --vm-driver hyperkit
 
 #### install Prometheus-operator
-    helm install prometheus stable/prometheus-operator
+    helm install prometheus stable/prometheus-operator(depreciated)
 
 ###### add repos  
     helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
